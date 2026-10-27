@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantresearch-agent-lab"
+version = "0.1.0"
+description = "An interview-sized RL research-agent sandbox with leakage verifiers and lockbox evaluation"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+quantresearch-demo = "quantresearch.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
