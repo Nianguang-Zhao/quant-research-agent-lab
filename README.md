@@ -1,8 +1,7 @@
 # Quant Research Agent Lab
 
-**An executable interview project at the intersection of reinforcement learning, tool-using agents, quantitative research, and post-training evaluation.**
 
-> **Scientific honesty:** This repository trains a small **linear policy-gradient RL agent to choose quantitative research tools**. It includes an **optional local LLM tool-calling agent** and exports **SFT-ready *examples***. It does **not** claim to have fine-tuned an LLM, found real trading alpha, or deployed live orders. The default market data are synthetic. The distinction is important in an interview.
+**Scientific honesty:** This repository trains a small **linear policy-gradient RL agent to choose quantitative research tools**. It includes an **optional local LLM tool-calling agent** and exports **SFT-ready *examples***. It does **not** claim to have fine-tuned an LLM, found real trading alpha, or deployed live orders. The default market data are synthetic. The distinction is important in an interview.
 
 ## What it demonstrates
 
