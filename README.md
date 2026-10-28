@@ -1,8 +1,6 @@
 # Quant Research Agent Lab
 
 
-**Scientific honesty:** This repository trains a small **linear policy-gradient RL agent to choose quantitative research tools**. It includes an **optional local LLM tool-calling agent** and exports **SFT-ready *examples***. It does **not** claim to have fine-tuned an LLM, found real trading alpha, or deployed live orders. The default market data are synthetic. The distinction is important in an interview.
-
 ## What it demonstrates
 
 A quantitative research agent has a budget of **3 backtest calls**. It must choose from six plausible strategies (trend or reversal, each with three thresholds), assess the evidence from development-period backtests, or stop early. After the selection is frozen, a **chronological lockbox** evaluates the selected strategy out of sample.
